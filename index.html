@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <title></title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="text.css">
     <link rel="stylesheet" href="intro.css">
@@ -11,8 +13,10 @@
     <link rel="stylesheet" href="fares.css">
     <link rel="stylesheet" href="action.css">
     <link rel="stylesheet" href="header.css">
-    <meta charset="UTF-8">
-    <title></title>
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script type="text/javascript" charset="UTF-8" src="parallax.js-1.5.0/parallax.min.js"></script>
+    <script type="text/javascript" charset="UTF-8" src="team.js"></script>
+    <script type="text/javascript" charset="UTF-8" src="header.js"></script>
 </head>
 <body>
 <div class="header">
@@ -39,13 +43,13 @@
     </div>
 </div>
 
-<div class="intro text-center" id="intro">
+<div class="intro text-center" id="intro" data-parallax="scroll" data-image-src="bg.png">
   <img class="intro-logo" src="air.png" alt="Лого">
   <h1 class="title-large">Мы делаем воздух</h1>
   <h2 class="text-lead">Покупайте наш высококачественный воздух по самым низким ценам. Бесплатная доставка в течении нескольких часов до подьезда.</h2>
 
   <div class="buffer-both">
-    <a class="button button-green" href="#">Купить сходу</a>
+    <a class="button button-green" href="#intro">Купить сходу</a>
   </div>
 
   <small class="text-small">Первые 10 покупателей получат воду в подарок</small>
@@ -109,8 +113,8 @@
                 </div>
                 <div class="member-details">
                     <h3 class="title-small">Остап Бендер</h3>
-                    <small class="text-small">Командовать парадом будет он</small>
-                    <p class="text-medium">
+                    <small class="text-small member-moto">Командовать парадом будет он</small>
+                    <p class="text-medium member-about">
                         Что такое, товарищи, дебют и что такое, товарищи, идея? Дебют, товарищи это - "Quasi uno fantasia".
                         А что такое, товарищи, значит идея?, Идея, товарищи, - это человеческая мысль, облеченная в логическую шахматную форму.
                     </p>
@@ -130,8 +134,8 @@
                 </div>
                 <div class="member-details">
                     <h3 class="title-small">Киса Воробьяников</h3>
-                    <small class="text-small">Пологает, торг не уместен</small>
-                    <p class="text-medium">
+                    <small class="text-small member-moto">Пологает, торг не уместен</small>
+                    <p class="text-medium member-about">
                         Месье, же не манж па на сис жур, Гебен мир зи битте этвас копек ауф дем штюк борд. Подайте
                          что-нибудь бывшему дипутату Государственной думы
                     </p>
@@ -173,7 +177,7 @@
             </div>
             <div class="fare-footer">
               <div class="fare-order">
-                <a class="button button-gray" href="#">Заказать</a>
+                <a class="button button-gray" href="#intro">Заказать</a>
               </div>
             </div>
           </div>
@@ -195,7 +199,7 @@
             </div>
             <div class="fare-footer">
               <div class="fare-order">
-                <a class="button button-blue" href="#">Заказать</a>
+                <a class="button button-blue" href="#intro">Заказать</a>
               </div>
             </div>
           </div>
@@ -217,7 +221,7 @@
             </div>
             <div class="fare-footer">
               <div class="fare-order">
-                <a class="button button-gray" href="#">Заказать</a>
+                <a class="button button-gray" href="#intro">Заказать</a>
               </div>
             </div>
           </div>
@@ -237,7 +241,7 @@
             <div class="action-details">
                 <p class="title-large">Закажите воздух и спите спокойно</p>
                 <div class="buffer-both">
-                    <a class="button button-green" href="#">Заказать уже</a>
+                    <a class="button button-green" href="#intro">Заказать уже</a>
                 </div>
             </div>
         </div>

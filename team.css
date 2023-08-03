@@ -19,12 +19,28 @@
     height: auto;
 }
 
-.member-datails {
+.member-details {
     display: inline-block;
     max-width: 270px;
     margin-left: 20px;
 }
 
-.member-datails .text-small {
+.member-details .text-small {
     display: block;
+    color: #ff2a68;
+}
+
+.member-details .text-small:hover {
+    cursor: pointer;
+}
+
+.member-details .team-medium {
+    margin-bottom: 20px;
+}
+
+.member-social {
+    background: #fff;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 8px 20px 5px;
 }
